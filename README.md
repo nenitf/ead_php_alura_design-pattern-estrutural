@@ -35,3 +35,4 @@ Padrões estruturais tratam de montar objetos e classes em estruturas maiores, m
 - **Adapter** classe que adapta um detalhe de infra (envio de email, acesso de api e etc)
     > Adapter vs Facade: Adaptar vs Simplificar
 - **Bridge** classe "intermediária" entre um recurso e um *adapter*, servindo como "tradutor" ou adaptando o recurso para o adapter. Esse padrão aumenta a extensibilidade do código
+- **Decorator** injeta ou não funcionalidade a mais no construtor da classe. Semelhante a um "plugin"
