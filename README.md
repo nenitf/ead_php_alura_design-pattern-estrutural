@@ -41,3 +41,4 @@ Padrões estruturais tratam de montar objetos e classes em estruturas maiores, m
     > Uma classe de fachada, contendo apenas a funcionalidade desejada, pode ser bastante útil para autenticação, acesso a sistema de arquivos, cache, etc.
 - **Proxy** "imita" uma classe envolvendo algum método dentro de outro método de mesma assinatura e realizando alguma operação, podendo chamar o método original ou não
     > Legal para cache, lazy loading e middlewares
+- **Flyweight** focado em melhorar performance, separa trechos do código que podem ser reutilizáveis para poupar memória. Pode prejudicar o entendimento do código já que a classe se torna menos "semântica" e mais "útil"
